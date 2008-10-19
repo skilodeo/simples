@@ -1,0 +1,15 @@
+h2 { margin-top:2px; }
+
+
+/* Required IE fixes
+================================================*/
+/* Serve gif images to IE/Win pre version 7 */
+* html .i1,
+* html .i2 {background-image:url(../img/borders.gif);}
+* html .bt,
+* html .bt div,
+* html .bb,
+* html .bb div {background-image:url(../img/box.gif);}
+/* Set a height to fix up some rendering issues. */
+* html .i1,
+* html .i3 {height:1px;}

@@ -1,0 +1,106 @@
+# H1
+
+	msgid  "h1:products"
+	msgstr "Products"
+	
+	msgid  "h1:search"
+	msgstr "Search results for:"
+
+
+# H2
+	
+	msgid  "h2:by-categories"
+	msgstr "by Categories:"
+	
+	msgid  "h2:by-deployment"
+	msgstr "by Deployment:"
+
+
+# HOME
+
+	msgid  "home:products_by_categories"
+	msgstr "Products by Categories"
+	
+	msgid  "home:products_by_categories_url"
+	msgstr "/products/by-categories"
+	
+	msgid  "home:products_by_deployment"
+	msgstr "Products by Deployment"
+	
+	msgid  "home:products_by_deployment_url"
+	msgstr "/products/by-deployment"
+
+
+# CONTACT
+	
+	msgid  "contact_formular:info_txt"
+	msgstr "Interested in our products and services? Don’t hesitate to fill out the formular<br />below and we will get back to you as soon as possible."
+	
+	msgid  "contact_formular:salutation_mr"
+	msgstr "Mr."
+	
+	msgid  "contact_formular:salutation_ms"
+	msgstr "Ms."
+	
+	msgid  "contact_formular:name"
+	msgstr "Name:"
+	
+	msgid  "contact_formular:company"
+	msgstr "Company:"
+	
+	msgid  "contact_formular:street"
+	msgstr "Street/No:"
+	
+	msgid  "contact_formular:city"
+	msgstr "ZIP/City:"
+	
+	msgid  "contact_formular:fon"
+	msgstr "Phone*:"
+	
+	msgid  "contact_formular:fax"
+	msgstr "Fax:"
+	
+	msgid  "contact_formular:mail"
+	msgstr "Email*:"
+	
+	msgid  "contact_formular:interest"
+	msgstr "I’m especially interested in:"
+	
+	msgid  "contact_formular:referer"
+	msgstr "How did you became aware of us?"
+	
+	msgid  "contact_formular:message"
+	msgstr "Message:"
+	
+	msgid  "contact_formular:submit"
+	msgstr "Submit request"
+
+
+# SEARCH
+
+	msgid  "search:input_value"
+	msgstr "Search …"
+	
+	msgid  "search:no_results"
+	msgstr "We could not find any matches for your search request."
+
+
+# IMG-SWITCH
+
+	msgid  "img_switch:prefix"
+	msgstr "Image: "
+	
+	msgid  "img_switch:prev"
+	msgstr "Previous Image"
+	
+	msgid  "img_switch:next"
+	msgstr "Next Image"
+
+
+# ERRORS
+
+	msgid  "error:no_list"
+	msgstr "This menu item does not have any children yet."
+	
+	msgid  "error:no_products"
+	msgstr "This menu item does not have any products yet."

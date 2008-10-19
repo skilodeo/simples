@@ -1,0 +1,81 @@
+html, body { height:100%; }
+	body { color:#555; font-size:62.5%; line-height:20px; font-family:"Lucida Grande",Verdana,"Bitstream Vera Sans",Arial,sans-serif; }
+		#header, #titlebar, #content { font-size:12px; }
+			.inner { width:930px; margin:0 auto; }
+
+/* basics */
+h1, h2, .serif { font-size:12px; font-family:Georgia,Times,"Times New Roman",serif; }
+
+a:link, a:visited { color:#21759B; text-decoration:none; }
+a:hover, a:active { color:#D54E21; text-decoration:none; }
+
+a.button { display:block; float:left; color:#555; background:#F6F6F6; border:1px solid #CCC; padding:3px 10px; margin:2px 0; -moz-border-radius:3px; }
+a.button:hover { color:#FFF; background:#D54E21; border:1px solid #D54E21; }
+
+
+/* header */
+#header { background:#464646; height:50px; }
+	#header .inner { width:960px; }
+	
+	#header ul { float:left; padding-top:20px; }
+	#header ul.right { float:right; }
+		#header ul li { float:left; }
+	
+	#header li a { display:block; font-size:14px; padding:5px 15px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; }
+	#header li.on a { color:#555; background:#E4F2FD; }
+		
+		#header a:link, #header a:visited { color:#999; text-decoration:none; }
+		#header a:hover, #header a:active { color:#EEE; text-decoration:none; }
+	
+	#header fieldset select { padding:5px 10px; margin:0; background-color:#E4F2FD; border-color:#E4F2FD; width:auto; -moz-border-radius-bottomleft:0; -moz-border-radius-bottomright:0; }
+	#header fieldset select.off { color:#AAA; }
+		#header fieldset option { padding:0 5px; }
+	
+	#header ul.right a { font-size:12px;  }
+		#header ul.right a:hover { color:#EEE; background:#D54E21 url(../../img/bg/tab_logout.png) left bottom repeat-x; }
+	
+	#header li.logout { margin-left:5px; }
+
+/* titlebar */
+#titlebar { background:#E4F2FD; border-bottom:1px solid #C6D9E9; }
+	#titlebar h1 { font-size:32px; line-height:1em; padding:30px 0 15px 0; }
+
+/* content */
+#content { padding-bottom:30px; }
+	#content .back { margin:10px auto 30px auto; width:930px; }
+	#content .inner { margin-top:25px; }
+	
+	/* submenu */
+	#submenu { width:930px; margin:0 auto; }
+		#submenu li { float:left; margin:0 3px 10px 0; }
+			#submenu a { display:block; border:1px solid #C6D9E9; border-top:0; -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; }
+			#submenu li.on a { color:#555; background:#C6D9E9; padding:3px 12px; }
+				#submenu a:link, #submenu a:visited { color:#888; background:#E4F2FD; padding:1px 12px; text-decoration:none; }
+				#submenu a:hover, #submenu a:active { color:#555; background:#E4F2FD; padding:3px 12px; text-decoration:none; }
+	
+	/* table */
+	table { border:1px solid #CCC; border-bottom:0; width:100%; }
+		thead { background-color:#464646; color:#D7D7D7; }
+			th, td { vertical-align:middle; padding:4px 15px 2px 15px; }
+			th.check { text-align:right; width:1em; padding-right:0; }
+				th.check input { margin-top:4px; }
+			td.name { padding-top:0; padding-bottom:0; }
+		tbody td, tbody th { border-bottom:1px solid #CCC; }
+			tbody tr.alt { background:#F3F3F3; }
+			tbody tr:hover { background:#E4F2FD; }
+			tbody td span { padding:0 10px; }
+		
+		/* a.move */
+		a.move { display:block; float:left; width:13px; height:16px; padding:0 3px; margin-bottom:2px; background-repeat:no-repeat; }
+			a.move.up { background-image:url(../../img/ico/up.gif); background-position:2px 0; }
+			a.move.up.indent { margin-left:19px; }
+				a.move.up:hover { background-position:2px -16px; }
+			a.move.down { background-image:url(../../img/ico/down.gif); background-position:2px 1px; }
+				a.move.down:hover { background-position:2px -15px; }
+		
+		/* a.publish */
+		a.publish { display:block; float:left; width:13px; height:16px; padding:0 3px; margin-bottom:2px; background-repeat:no-repeat; }
+			a.publish.true { background-image:url(../../img/ico/check.gif); background-position:2px 0; }
+				a.publish.true:hover { background-position:2px -16px; }
+			a.publish.false { background-image:url(../../img/ico/cross.gif); background-position:2px 1px; }
+				a.publish.false:hover { background-position:2px -15px; }

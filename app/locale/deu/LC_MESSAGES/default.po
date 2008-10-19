@@ -1,0 +1,106 @@
+# H1
+
+	msgid  "h1:produkte"
+	msgstr "Produkte"
+	
+	msgid  "h1:search"
+	msgstr "Suchergebnisse für:"
+
+
+# H2
+
+	msgid  "h2:nach-kategorien"
+	msgstr "nach Kategorien:"
+	
+	msgid  "h2:nach-anwendung"
+	msgstr "nach Anwendung:"
+
+
+# HOME
+
+	msgid  "home:products_by_categories"
+	msgstr "Produkte nach Kategorien"
+	
+	msgid  "home:products_by_categories_url"
+	msgstr "/produkte/nach-kategorien"
+	
+	msgid  "home:products_by_deployment"
+	msgstr "Produkte nach Anwendung"
+	
+	msgid  "home:products_by_deployment_url"
+	msgstr "/produkte/nach-anwendung"
+
+
+# CONTACT
+
+	msgid  "contact_formular:info_txt"
+	msgstr "Wenn Sie an unseren Produkten und Leistungen interessiert sind, füllen Sie bitte<br />nachfolgendes Formular aus. Wir werden uns umgehend mit Ihnen in Verbindung setzen."
+	
+	msgid  "contact_formular:salutation_mr"
+	msgstr "Herr"
+	
+	msgid  "contact_formular:salutation_ms"
+	msgstr "Frau"
+	
+	msgid  "contact_formular:name"
+	msgstr "Name*:"
+	
+	msgid  "contact_formular:company"
+	msgstr "Firma:"
+	
+	msgid  "contact_formular:street"
+	msgstr "Straße/Nr:"
+	
+	msgid  "contact_formular:city"
+	msgstr "PLZ/Ort:"
+	
+	msgid  "contact_formular:fon"
+	msgstr "Telefon*:"
+	
+	msgid  "contact_formular:fax"
+	msgstr "Telefax:"
+	
+	msgid  "contact_formular:mail"
+	msgstr "E-Mail*:"
+	
+	msgid  "contact_formular:interest"
+	msgstr "Ich interessiere mich speziell für folgendes Produkt:"
+	
+	msgid  "contact_formular:referer"
+	msgstr "Wie sind Sie auf uns aufmerksam geworden?"
+	
+	msgid  "contact_formular:message"
+	msgstr "Nachricht:"
+	
+	msgid  "contact_formular:submit"
+	msgstr "Anfrage absenden"
+
+
+# SEARCH
+
+	msgid  "search:input_value"
+	msgstr "Suche …"
+	
+	msgid  "search:no_results"
+	msgstr "Ihre Suchanfrage ergab keine Treffer."
+
+
+# IMG-SWITCH
+
+	msgid  "img_switch:prefix"
+	msgstr "Bild: "
+	
+	msgid  "img_switch:prev"
+	msgstr "Vorheriges Bild"
+	
+	msgid  "img_switch:next"
+	msgstr "Nächstes Bild"
+
+
+# ERRORS
+
+	msgid  "error:no_list"
+	msgstr "Dieser Menüpunkt hat bisher keine Unterpunkte."
+	
+	msgid  "error:no_products"
+	msgstr "Dieser Menüpunkt beinhaltet zur Zeit noch keine Produkte."

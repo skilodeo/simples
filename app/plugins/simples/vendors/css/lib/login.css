@@ -1,0 +1,15 @@
+body { color:#444; font-family:Tahoma,Arial,Helvetica,Geneva,sans-serif; font-size:12px; line-height:18px; }
+
+h1, h2 { color:#333; font-family:Arial,Verdana,Helvetica,sans-serif; }
+	h1 { float:left; font-size:24px; }
+	h2 { float:left; font-size:16px; line-height:22px; margin-left:15px; }
+
+
+/* content */
+#box { width:330px; margin:70px auto 0 auto; padding:20px 30px; background:#E4F2FD; border:1px solid #C6D9E9; -moz-border-radius:3px; }
+	div.message { margin-bottom:15px; }
+	
+	#box label { display:block; float:left; width:100px; padding:3px 0; margin:2px 0; }
+	#box input { float:left; width:200px; margin:2px 0; }
+	
+	form div.submit { margin-top:15px !important; }
