@@ -1,0 +1,55 @@
+/*
+ *  tooltips
+ *  456bereastreet.com/archive/200609/transparent_custom_corners_and_borders_version_2/
+ */
+
+/* basic styling, used when js is unsupported */
+.cbb { margin:1em 0; padding:0 10px; border:1px solid #666; background:#D7D7D7; }
+
+/* normal styling */
+.cb { margin:0.5em 0; }
+
+/* top corners and border */
+div.bt { height:9px; margin:0 0 0 11px; background:url(../../img/box.png) no-repeat 100% 0; }
+div.bt div { position:relative; left:-11px; width:11px; height:9px; background:url(../../img/box.png) no-repeat 0 0; font-size:0; line-height:0; }
+
+/* bottom corners and border */
+div.bb { height:9px; margin:0 0 0 11px; background:url(../../img/box.png) no-repeat 100% 100%; }
+div.bb div { position:relative; left:-11px; width:11px; height:9px; background:url(../../img/box.png) no-repeat 0 100%; font-size:0; line-height:0; }
+
+/* left border */
+.i1 { padding:0 0 0 12px; background:url(../../img/borders.png) repeat-y 0 0; }
+
+/* right border */
+.i2 { padding:0 12px 0 0; background:url(../../img/borders.png) repeat-y 100% 0; }
+
+/* content wrapper */
+.i3 { display:block; margin:0; padding:5px 10px; background:#D7D7D7; }
+
+/* make content wrapper auto clearing so it will contain floats */
+.i3:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.i3 { display:inline-block; }
+.i3 { display:block; }
+
+/*
+ *  display
+ */
+
+.hide { display:none !important; }
+.show { display:block !important; }
+
+/*
+ *  float
+ */
+
+.unfloat, .float-none { float:none; }
+.float, .float-left { float:left; }
+.float-right { float:right; }
+
+/*
+ *  clear
+ */
+
+.clear, .clear-both { clear:both !important; float:none !important; line-height:0 !important; font-size:1px !important; padding:0; margin:0; height:0; }
+.clear-left { clear:left; }
+.clear-right { clear:right; }

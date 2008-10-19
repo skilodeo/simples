@@ -1,0 +1,83 @@
+# TITLES
+
+	msgid  "title:dashboard"
+	msgstr "Dashboard"
+	
+	msgid  "title:menus"
+	msgstr "Navigation"
+	
+	msgid  "title:pages"
+	msgstr "Seiten"
+	
+	msgid  "title:logout"
+	msgstr "Abmelden"
+
+# HEADLINES
+
+	msgid  "headline:dashboard_index"
+	msgstr "Dashboard"
+	
+	msgid  "headline:menus_index"
+	msgstr "Übersicht der Navigation"
+	
+	msgid  "headline:menus_edit"
+	msgstr "Navigationspunkt bearbeiten"
+	
+	msgid  "headline:pages_index"
+	msgstr "Übersicht der Seiten"
+	
+	msgid  "headline:pages_edit"
+	msgstr "Seite bearbeiten"
+
+# LABELS:
+
+	msgid  "label:search"
+	msgstr "Suche:"
+	
+	msgid  "label:add_page"
+	msgstr "Neue Seite:"
+	
+	msgid  "label:del_page"
+	msgstr "Ausgewählte Seiten"
+	
+	msgid  "label:add_menu"
+	msgstr "Neuer Navigationspunkt:"
+	
+	msgid  "label:del_menu"
+	msgstr "Ausgewählte Navigationspunkte"
+
+# BUTTONS:
+
+	msgid  "button:add"
+	msgstr "erstellen"
+	
+	msgid  "button:del"
+	msgstr "entfernen"
+
+# TABLE > TH
+
+	msgid  "th:author"
+	msgstr "Autor"
+	
+	msgid  "th:date"
+	msgstr "Datum"
+	
+	msgid  "th:name"
+	msgstr "Name"
+	
+	msgid  "th:page"
+	msgstr "Verknüpfte Seite"
+	
+	msgid  "th:publish"
+	msgstr "Öffentlich"
+	
+	msgid  "th:sort"
+	msgstr "Sortierung"
+
+# ERRORS
+
+	msgid  "error:add"
+	msgstr "Bitte vergeben Sie einen Namen."
+	
+	msgid  "error:list_empty"
+	msgstr "Keine entsprechenden Einträge vorhanden."
