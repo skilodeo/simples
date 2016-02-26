@@ -1,0 +1,1 @@
+Simple content management system based on CakePHP.
